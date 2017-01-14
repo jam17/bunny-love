@@ -1,0 +1,338 @@
+  .column.large-centered,
+  .columns.large-centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none !important;
+  }
+  /*Para centrar*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+	font-family: Arial;
+	background-color: #ecf7fb;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+/*completa grid*/
+/*Aqui empieza el header*/
+.menu{
+	background-color: #037f99;
+}
+.bunny, .love{
+	font-family: "Baloo Paaji";
+	display: inline-block;
+	font-size: 30px;
+	margin:10px 3px;
+}
+.bunny{
+	color: white;
+}
+.love{
+	color: #ff7673;
+}
+.iconmenu{
+	display: none;
+}
+.links{
+	text-align: right;
+}
+.links li{
+	display: inline-block;
+	margin: 25px 10px;
+}
+.links a{
+	text-decoration:none;
+	color: white;
+	font-size: 16px;
+}
+/*Aqui empieza la seccion del titulo*/
+.section1{
+	background-image: url(../img/img-1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.soft{
+	font-family: "Baloo Paaji";
+	color:#ff7673;
+	font-size: 80px;
+	padding: 50px 0 10px 0;
+}
+.sub2{
+	color:white;
+	font-family: Arial;
+	font-size: 15px;
+	padding: 40px 0;
+}
+.titlesoft{
+	background-color: rgba(3, 127, 153, 0.8);
+	text-align: center;
+	padding-bottom: 40px;
+	margin-bottom: 50px;
+}
+/*Aqui empieza la seccion de los 4 conejos*/
+.section2{
+	background-color: white;
+	padding: 15px;
+}
+.block{
+	padding: 5px;
+}
+.rabbit1, .rabbit2, .rabbit3, .rabbit4{
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 150px;
+}
+.rabbit1{
+	background-image: url(../img/img-1.jpg);
+}
+.rabbit2{
+	background-image: url(../img/img-2.jpg);
+}
+.rabbit3{
+	background-image: url(../img/img-3.jpg);
+}
+.rabbit4{
+	background-image: url(../img/img-4.jpg);
+}
+.text1{
+	background-color: #037f99;
+	text-align: center;
+	color:white;
+	font-size: 15px;
+	padding: 0 10px 30px 10px;
+	line-height: 200%;
+	height: 270px;
+}
+.text1 p{
+	font-family: "Baloo Paaji";
+	padding: 15px 0 30px 0;
+	color: #ff7673;
+	font-size: 20px;
+}
+/*Aqui empieza la seccion de la izquierda*/
+.section3{
+	background-color: #037f99;
+	padding:15px;
+}
+.conejines{
+	padding: 5px;
+}
+.conejo1{
+	background-image: url(../img/img-5.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 350px;
+}
+.subsection1{
+	background-color: #ecf7fb;
+	padding: 10px;
+	font-size: 16px;
+	line-height: 150%;
+	padding-bottom: 20px;
+	margin:0;
+}
+.subsection1 p{
+	font-size:20px;
+	color: #ff7673; 
+	font-family: "Baloo Paaji";
+	text-align: center;
+	padding: 15px 0 25px 0;
+}
+.subsection1 h1{
+	font-size: 20px;
+	padding-bottom: 20px;
+	margin:0;
+}
+.subsection2 p{
+	font-size:20px;
+	color: #ff7673; 
+	font-family: "Baloo Paaji";
+	text-align: center;
+	padding: 10px 0;
+	margin:0;
+}
+.subsection2{
+	line-height: 150%;
+	font-size: 15px;
+	padding: 20px 15px;
+	margin:0;
+	background-color: #ecf7fb;
+}
+/*Aqui empieza la seccion de la derecha*/
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 40px;
+}
+.conejo2{
+	background-image: url(../img/img-6.jpg);
+	background-size: 100%;
+	height: 280px;
+	background-repeat: no-repeat;
+	margin-top:10px;
+}
+.icons{
+	font-size: 15px;
+	text-align: center;
+	margin-top: 40px;
+}
+.icons a{
+	color: #037f99;
+	text-decoration: none;
+	margin: 20px;
+}
+.conejo3{
+	background-image: url(../img/img-3.jpg);
+	background-size: 100%;
+	height: 250px;
+	background-repeat: no-repeat;
+	margin-top:20px;
+	margin-bottom: 0;
+}
+.foot1{
+	background-image: url("../img/bunny-head.png");
+    background-repeat: repeat-x;
+    background-size: 200px;
+    height: 100px;
+}
+.foot2{
+	text-align: center;
+	color:white;
+	padding: 40px;
+	border-top: 3px #ff7673 solid;
+	background-color: #037f99;
+}
+h1, p{
+	margin:0;
+}
+form{
+	background-color: #ecf7fb;	
+}
+@media (max-width : 768px) and (min-width : 480px){
+	.text1{
+	line-height: 150%;
+	font-size: 15px;
+	}
+	.soft{
+		width: 100%;
+		font-size: 40px;
+		padding: 20px 0 10px 0;
+	}
+	.navegador{
+		display: none;
+	}
+	.iconmenu img{
+		width: 30px;
+	}
+	.titlesoft{
+		width: 80%;
+		margin-bottom: 20px;
+	}
+	.iconmenu{
+		display: inline-block;
+		position: absolute;
+		top: 15px;
+		right: 15px;
+	}
+	.sub2{
+	padding: 15px 0;
+	}
+	.col-4{
+		width: 80%;
+	}
+	.col-8{
+		width: 20%;
+	}
+	.conejo1, .conejo2, .conejo3, .rabbit1, .rabbit2, .rabbit3, .rabbit4, .conejo1, .conejo2{
+		height: 120px;
+	}
+		.subsection1, .subsection2{
+		font-size: 12px;
+	}
+
+}
+@media
+(min-width: 320px) and (max-width: 479px){
+
+	.bunny, .love{
+		font-size: 20px;
+	}
+	.navegador{
+		display: none;
+	}
+	.iconmenu img{
+		width: 30px;
+	}
+	.iconmenu{
+		display: inline-block;
+		position: absolute;
+		top: 15px;
+		right: 15px;
+	}
+	.bunny{
+		margin-left: 10px;
+	}
+	.container{
+		width: 100%;
+	}
+	.soft{
+		width: 100%;
+		font-size: 50px;
+		padding: 20px 0 10px 0;
+	}
+	.titlesoft{
+		width: 90%;
+		margin-bottom: 20px;
+	}
+	.sub2{
+	padding: 10px 0;
+	}
+
+	form {
+		display: none;
+	}
+	.conejo2
+	{
+		display: none;
+	}
+	.subsection2{
+		display: none;
+
+	}
+	.conejo3{
+		display: none;
+	}
+	.text1{
+		font-size: 15px;
+		height: auto;
+		padding-bottom: 40px;
+	}
+	.txt, .subsection1{
+		font-size: 15px;
+		margin:0;
+	}
+	.text h1{
+		font-size: 15px;
+	}
+	.rabbit1, .rabbit2, .rabbit3, .rabbit4, .conejo1, .conejo2{
+		height: 220px;
+	}
+	.foot1{
+		background-size: 150px;
+		height: 80px;
+	}
+	iframe{
+		height: 200px;
+	}
+
+    }
+
